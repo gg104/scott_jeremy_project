@@ -6,7 +6,7 @@
   </header>
   <body style="background-color:DodgerBlue;" alt="Blue to match his beautiful eyes">
   <p>Paul you better get ready because we are actually making you a website this time &#128511;</p>
-    <p1>Paul: <a href='linkedin.com/in/thisisgreat'>this site</a></p1>
+    <p1>Paul: <a href='https://linkedin.com/in/thisisgreat'>this site</a></p1>
   </body>
 </article>
 <img src="https://athletics.kenyon.edu/images/2019/2/8/Neubauer_Paul_MTRK19.jpg?width=300" alt="Italian Trulli">
