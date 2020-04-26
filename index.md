@@ -1,6 +1,6 @@
 <article>
   <header>
-    <h1> Big project shit </h1>
+    <h1 style="background-color:DodgerBlue;"> Big project shit </h1>
     <h2>Gang Gang Gang</h2>
     <p>Yuh</p>
   </header>
