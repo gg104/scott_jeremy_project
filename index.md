@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <article>
   <header>
     <h1> Big project shit </h1>
