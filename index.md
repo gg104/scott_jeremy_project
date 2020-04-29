@@ -39,6 +39,9 @@
 </article>
 
   
+  <script type="text/javascript"  src="./js/bstat/binomial_revision.js">
+		</script>
+  
   <div id="Personal" class="tabcontent">
     <h3>The Life of Paul</h3>
     <p>Personal information will be given out here.</p>
