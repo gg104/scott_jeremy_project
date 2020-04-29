@@ -25,7 +25,7 @@
     }
     </script>
   </header>
-<! testing to see if this comment appears>
+<! testing to see if this comment appears....it did!!! >
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Personal')">Personal</button>
     <button class="tablinks" onclick="openCity(event, 'Academic')">Academic</button>
