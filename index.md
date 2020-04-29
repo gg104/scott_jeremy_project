@@ -25,7 +25,7 @@
     }
     </script>
   </header>
-  
+<! testing to see if this comment appears>
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Personal')">Personal</button>
     <button class="tablinks" onclick="openCity(event, 'Academic')">Academic</button>
@@ -38,10 +38,10 @@
   </body>
 </article>
 
-  
+
   <script type="text/javascript"  src="./js/bstat/binomial_revision.js">
 		</script>
-  
+
   <div id="Personal" class="tabcontent">
     <h3>The Life of Paul</h3>
     <p>Personal information will be given out here.</p>
@@ -57,7 +57,7 @@
     <h3>Athletic</h3>
     <p>Paul is a big runner guy.</p>
   </div>
-  
+
   <div id="Photo Gallery" class="tabcontent">
     <h3>These are hot boi pics of Paul.</h3>
     <img src="https://athletics.kenyon.edu/images/2019/2/8/Neubauer_Paul_MTRK19.jpg?width=300" alt="Nubby Nub Nub">
