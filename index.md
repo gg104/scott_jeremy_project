@@ -25,7 +25,6 @@
     }
     </script>
   </header>
-<! testing to see if this comment appears....it did!!! >
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Personal')">Personal</button>
     <button class="tablinks" onclick="openCity(event, 'Academic')">Academic</button>
@@ -33,14 +32,18 @@
     <button class="tablinks" onclick="openCity(event, 'Photo Gallery')">Photo Gallery</button>
   </div>
   <!-- I am trying to add some sorta tab layout here, but I think to make them clickable//appear disappear, you need to incorporate java script which I havent been able to do yet. Edit: I got the java!!! -->
+  
+  
   <body style="background-color:DodgerBlue;" alt="Blue to match his beautiful eyes">
+
+  <p>Today is</p> <?php echo date('l, F jS, Y'); ?>
+  
   <p>Paul you better get ready because we are actually making you a website this time &#128511;</p>
   </body>
+  
+  
 </article>
-
-
-  <script type="text/javascript"  src="./js/bstat/binomial_revision.js">
-		</script>
+ 
 
   <div id="Personal" class="tabcontent">
     <h3>The Life of Paul</h3>
