@@ -56,7 +56,7 @@
 
   <div id="Photo Gallery" class="tabcontent">
     <h3>These are hot boi pics of Paul.</h3>
-    <img src="images/nubby.png" width='100'>
+    <img src="images/nubby.png" width='200'>
   </div>
 
 
