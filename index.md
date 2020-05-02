@@ -56,7 +56,7 @@
 
   <div id="Photo Gallery" class="tabcontent">
     <h3>These are hot boi pics of Paul.</h3>
-    <img src="https://athletics.kenyon.edu/images/2019/2/8/Neubauer_Paul_MTRK19.jpg?width=300" alt="Nubby Nub Nub">
+    <img src="images/nubby.png" alt="Nubby">
   </div>
 
 
