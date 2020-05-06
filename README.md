@@ -12,3 +12,4 @@ Scott - recent changes:
 Jeremy after you read these you can delete them they're just FYI
 
 I'm currently testing whether or not changes to the readme in the Atom desktop app will appear automatically in the online github page. 
+It turns out it works!
