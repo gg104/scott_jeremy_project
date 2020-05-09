@@ -25,14 +25,14 @@
     }
     </script>
   </header>
-<! testing to see if this comment appears>
+
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Personal')">Personal</button>
     <button class="tablinks" onclick="openCity(event, 'Academic')">Academic</button>
     <button class="tablinks" onclick="openCity(event, 'Athletic')">Athletic</button>
     <button class="tablinks" onclick="openCity(event, 'Photo Gallery')">Photo Gallery</button>
   </div>
-  <!-- I am trying to add some sorta tab layout here, but I think to make them clickable//appear disappear, you need to incorporate java script which I havent been able to do yet. Edit: I got the java!!! -->
+  <!-- I am trying to add some sorta tab layout here, but I think to make them clickable//appear disappear, you need to incorporate java script which I haven't been able to do yet. Edit: I got the java!!! Edit: trying to make it so the tabs start not loaded, and when you click they appear.-->
   <body style="background-color:DodgerBlue;" alt="Blue to match his beautiful eyes">
   <p>Paul you better get ready because we are actually making you a website this time &#128511;</p>
   </body>
