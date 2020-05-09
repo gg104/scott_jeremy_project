@@ -9,7 +9,12 @@ Scott - recent changes:
   <li>changed index.md to index.html, this gives us full control over the whole html of the web page</li>
   <li>I made two subbranches beneath the master branch. I'm not sure I understand it correctly, but the way I understand it is that subbranches duplicate the master branch so you can make changes to duplicate files in the repository without changing the finished project, then once you're satisfied with subbranch changes you can commit them to the master branch. But then I don't get what happens if we both change subbranches, can both of those changes be applied to the master branch at the same time so long as they are different files being changed? For now I'm fine with us just both commmitting changes to the master branch.
 </ul>
-Jeremy after you read these you can delete them they're just FYI
 
-I'm currently testing whether or not changes to the readme in the Atom desktop app will appear automatically in the online github page. 
-It turns out it works!
+
+Jeremy- recent changes:
+<ul>
+  <li>none</li>
+  <li>but thanks for all the updates!!</li>
+  <li>I am excited to look at what you have done with the CSS</li>
+  <li>Good to know with the .html change. i like that.</li>
+</ul>
