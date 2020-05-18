@@ -22,6 +22,8 @@
 
   <link rel="stylesheet" href="/scott_jeremy_project/assets/css/style.css?v=99d1eac82b337bb1f282a0e48fb777a9daa53e93">
   <link rel='stylesheet' href='CSS/styles.css'/>
+  <link rel='stylesheet' href='CSS/tabs.css'/>
+  <link rel='stylesheet' href='js/tabchanger.js'/>
 </head>
 <body>
   <div class="container-lg px-3 my-5 markdown-body">
@@ -31,48 +33,9 @@
         <h1 style="background-color:DodgerBlue;"> Paul </h1>
         <h2>The Man, The Mathematician, The Nub</h2>
 
-        <style>
-* {box-sizing: border-box}
 
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Style tab links */
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 20%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Home {background-color: red;}
-#Personal {background-color: orange;}
-#Academic {background-color: green;}
-#Athletic {background-color: orange;}
-#Photo Gallery {backgound-color: pink;}
-</style>
-</head>
+        </style>
+  </head>
 <body>
 
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
@@ -107,24 +70,6 @@ body, html {
   <!-- <img src="images/nubby.png" width="200" alt="nubby nub nub" /> -->
 </div>
 
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
 
 
       <p>Today is</p> <?php echo date('l, F jS, Y'); ?>
