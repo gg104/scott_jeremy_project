@@ -19,7 +19,6 @@
 {"headline":"scott_jeremy_project","@type":"WebSite","url":"https://scottshafferatkenyon.github.io/scott_jeremy_project/","name":"scott_jeremy_project","description":"This repository is being used to create a website:","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-<!--wait why do we have Jekyll again??? damn. imma hvae to figure out how CSS works now -->
 
     <link rel="stylesheet" href="/scott_jeremy_project/assets/css/style.css?v=99d1eac82b337bb1f282a0e48fb777a9daa53e93">
     <link rel='stylesheet' href='CSS/styles.css'/>
@@ -31,40 +30,32 @@
   <header>
       <h1 style="background-color:DodgerBlue;"> Paul </h1>
       <h2>The Man, The Mathematician, The Nub</h2>
+
+      <button class="tablink" onclick="openPage('Personal', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Academic', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Athletic', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('Photo Gallery', this, 'orange')">About</button>
       <script>
-    function openCity(evt, cityName) {
-      // Declare all variables
-      var i, tabcontent, tablinks;
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
 
-      // Get all elements with class="tabcontent" and hide them
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 
-      // Get all elements with class="tablinks" and remove the class "active"
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-
-      // Show the current tab, and add an "active" class to the button that opened the tab
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-    </script>
-  </header>
-  <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'Personal')">Personal</button>
-    <button class="tablinks" onclick="openCity(event, 'Academic')">Academic</button>
-    <button class="tablinks" onclick="openCity(event, 'Athletic')">Athletic</button>
-    <button class="tablinks" onclick="openCity(event, 'Photo Gallery')">Photo Gallery</button>
-  </div>
-  <!-- I am trying to add some sorta tab layout here, but I think to make them clickable//appear disappear, you need to incorporate java script which I havent been able to do yet. Edit: I got the java!!! -->
 
   <p>Today is</p> <?php echo date('l, F jS, Y'); ?>
-
-  <p>Paul you better get ready because we are actually making you a website this time &#128511;</p>
 
 
   <div id="Personal" class="tabcontent">
