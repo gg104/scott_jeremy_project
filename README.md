@@ -13,8 +13,5 @@ Scott - recent changes:
 
 Jeremy- recent changes:
 <ul>
-  <li>none</li>
-  <li>but thanks for all the updates!!</li>
-  <li>I am excited to look at what you have done with the CSS</li>
-  <li>Good to know with the .html change. i like that.</li>
+  <li>changed the overall layout using css an js.</li>
 </ul>
