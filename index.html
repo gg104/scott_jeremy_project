@@ -21,18 +21,27 @@
 
 
   <link rel="stylesheet" href="/scott_jeremy_project/assets/css/style.css?v=99d1eac82b337bb1f282a0e48fb777a9daa53e93">
-  <link rel='stylesheet' href='CSS/styles.css'/>
+  <!-- trying to get the red out <link rel='stylesheet' href='CSS/styles.css'/> -->
   <link rel='stylesheet' href='CSS/tabs.css'/>
-  <link rel='stylesheet' href='js/tabchanger.js'/>
+  <link rel='stylesheet' href='js/tabchanger.js'/> <!--note that this is not linked properly....i think stylesheet is wrong-->
 </head>
-<body>
+<body onload="myFunction()">
+  <script>
+function myFunction() {
+  document.body.style.backgroundColor = "grey";
+}
+</script>
   <div class="container-lg px-3 my-5 markdown-body">
 
     <article>
       <header>
-        <h1 style="background-color:DodgerBlue;"> Paul </h1>
+          <style>
+          h1 {text-align: center; font-size: 50px}
+          h2 {text-align: center;}
+          </style>
+        <h1> Paul </h1>
         <h2>The Man, The Mathematician, The Nub</h2>
-  </head>
+      </header>
 
   <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
   <button class="tablink" onclick="openPage('Personal', this, 'orange')">Personal</button>
@@ -59,17 +68,17 @@
   <div id="Athletic" class="tabcontent">
     <h3>Athletic</h3>
     <p>Paul is a big runner guy.</p>
+    <h2>
+      <embed src="https://www.tfrrs.org/athletes/6452226/Kenyon/Paul_Neubauer.html" style="width:750px; height: 600px;">
+    </h2>
   </div>
 
-  <div id="Photo Gallery" class="tabcontent">
+  <div id="Photo-Gallery" class="tabcontent">
     <h3>These are hot boi pics of Paul.</h3>
-    <!-- <img src="images/nubby.png" width="200" alt="nubby nub nub" /> -->
+      <p>
+        <img src="images/nubby.png" width="200" alt="nubby nub nub" />
+      </p>
   </div>
-
-
-
-      <p>Today is</p> <?php echo date('l, F jS, Y'); ?>
-
 
     </article>
 
@@ -78,6 +87,23 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
   <script>anchors.add();</script>
+  <script>
+  function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+  }
 
+// Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>
