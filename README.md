@@ -14,4 +14,7 @@ Scott - recent changes:
 Jeremy- recent changes:
 <ul>
   <li>changed the overall layout using css an js.</li>
+  <li>deleted .md which I somehow revived earlier</li>
+  <li>still trying to properly link the script files</li>
 </ul>
+
